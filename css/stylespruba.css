@@ -1,0 +1,24 @@
+body {
+
+    background: url(../img/v1000-044.jpg);
+    background-size: cover;
+
+}
+
+
+#header #logotipo {
+
+    width: 770px;
+    margin: 0px auto;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    
+    }
+    
+    #header #logotipo img{
+    display: block;
+    text-align: center1;
+    margin: 0px auto;
+    width: 200px;
+    letter-spacing: 10px;
+    }

@@ -1,0 +1,59 @@
+#boton{
+display: block;
+padding: 20px;
+background-color: green;
+color: blue;
+width: 200px;
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: bold;
+text-decoration: none;
+border: 2px solid black;
+
+}
+
+#boton:hover{
+border-radius: 10px;
+background-color: black;
+color: brown;
+border: 10px solid rgb(47, 0, 255);
+transition: border 1s, background 2s, border-radius 3s ;
+}
+
+#caja{
+margin-top: 25px;
+width: 250px;
+height: 250px;
+background-color: rgb(51, 0, 255);
+color: rgb(255, 234, 0);
+border: 5px solid black;
+font-size: 25px;
+text-align: center;
+line-height: 200px;
+animation-name: hola;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: initial;
+}
+
+@keyframes hola {
+
+    0%{
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+    50%{
+        margin-left: 1200px;
+        transform: rotate(360deg);
+        border-radius: 200PX;
+    }
+    75%{
+        border: 20px;
+        background: red;
+}
+ 77% {border: 70px;}
+
+ 100% {
+    margin-left: 0px;
+    transform: rotate(0deg);
+ }
